@@ -1,0 +1,38 @@
+{
+  "name": "@check-prs/rest-api",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "colincrawford <colin.crawford@zylotech.com>",
+  "license": "MIT",
+  "main": "src/rest-api.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColinCrawford/check-prs.git"
+  },
+  "scripts": {
+    "start": "node src/rest-api.js",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ColinCrawford/check-prs/issues"
+  },
+  "homepage": "https://github.com/ColinCrawford/check-prs#readme",
+  "dependencies": {
+    "@check-prs/core": "^0.0.1",
+    "@hapi/boom": "^9.0.0",
+    "@hapi/hapi": "^18.4.0",
+    "blipp": "^4.0.1",
+    "laabr": "^6.0.0"
+  }
+}

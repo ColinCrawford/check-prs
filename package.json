@@ -1,0 +1,23 @@
+{
+  "name": "check-prs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "packages/rest-api/rest-api.js",
+  "scripts": {
+    "start": "node packages/rest-api/src/rest-api.js",
+    "lint": "eslint ./packages",
+    "fix": "eslint ./packages --fix"
+  },
+  "keywords": [],
+  "author": "Colin Crawford",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "lerna": "^3.20.2"
+  }
+}
